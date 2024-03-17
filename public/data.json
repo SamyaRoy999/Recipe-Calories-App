@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Spaghetti Carbonara",
-        "image": "../src/assets/img1.jpg",
+        "image": "https://i.postimg.cc/3NdZn7zP/img1.jpg",
         "description": "Classic Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
         "ingredients": [
             "200g spaghetti",
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "name": "Chicken Alfredo Pasta",
-        "image": "../src/assets/img2.jpg",
+        "image": "https://i.postimg.cc/q7wXrzTP/img2.jpg",
         "description": "Creamy pasta dish with grilled chicken, garlic, and Parmesan cheese.",
         "ingredients": [
             "250g fettuccine pasta",
@@ -33,7 +33,7 @@
     {
         "id": 3,
         "name": "Caprese Salad",
-        "image": "../src/assets/img3.jpg",
+        "image": "https://i.postimg.cc/Rh6cwdHm/img3.jpg",
         "description": "Refreshing Italian salad made with tomatoes, fresh mozzarella, basil, and olive oil.",
         "ingredients": [
             "2 large tomatoes, sliced",
@@ -51,7 +51,7 @@
     {
         "id": 4,
         "name": "Chocolate Chip Cookies",
-        "image": "../src/assets/img4.jpg",
+        "image": "https://i.postimg.cc/CxHbCzzR/img4.jpg",
         "description": "Classic homemade cookies with chocolate chips.",
         "ingredients": [
             "200g all-purpose flour",
@@ -67,7 +67,7 @@
     {
         "id": 5,
         "name": "Vegetable Stir Fry",
-        "image": "../src/assets/img5.jpg",
+        "image": "https://i.postimg.cc/xdfM6nzt/img5.jpg",
         "description": "Healthy stir-fried vegetables with tofu, soy sauce, and ginger.",
         "ingredients": [
             "200g tofu, diced",
@@ -84,7 +84,7 @@
     {
         "id": 6,
         "name": "Mushroom Risotto",
-        "image": "../src/assets/img6.jpg",
+        "image": "https://i.postimg.cc/7LHW85cz/img6.jpg",
         "description": "Creamy Italian rice dish cooked with mushrooms, onions, and Parmesan cheese.",
         "ingredients": [
             "200g Arborio rice",
