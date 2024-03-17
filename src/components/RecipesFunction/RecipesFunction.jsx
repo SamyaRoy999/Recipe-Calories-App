@@ -21,7 +21,7 @@ const RecipesFunction = () => {
     if (!isExgist) {
       setTableData([...tableData, recipeCook])
     } else {
-      toast('alrady exgist')
+      toast('Already Exists')
     }
   }
 
@@ -31,7 +31,7 @@ const RecipesFunction = () => {
   return (
     <>
       <ToastContainer />
-      <div className="grid grid-cols-12 gap-4">
+      <div className="grid grid-cols-12 gap-3">
         <div className=" col-span-7 grid grid-cols-2 gap-6">
           {cardData.map(item => <Cards key={item.id} recipe={item} hendelCard={hendelCard} />)}
         </div>

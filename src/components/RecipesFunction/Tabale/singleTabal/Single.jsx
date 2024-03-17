@@ -55,7 +55,7 @@ const Single = ({ tableData, hendelCurrently }) => {
             <tbody key={item.id} >
               <tr className="bg-base-200">
                 <th>{index + 1}</th>
-                <td>{item.name}</td>+
+                <td>{item.name}</td>
                 <td>{item.preparing_time}</td>
                 <td>{item.calories}</td>
               </tr>

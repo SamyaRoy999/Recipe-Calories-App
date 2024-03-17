@@ -12,8 +12,8 @@ const Cards = ({recipe, hendelCard}) => {
     
   }
   return (
-    <div className="flex  gap-5">
-      <div className="card  bg-base-100 shadow-xl  border border-gray-500 p-3">
+    <div className="">
+      <div className="card  bg-base-100 shadow-xl  border border-gray-500 p-4">
         <figure className=" h-48 "><img src={recipe.image} className=" rounded-xl" alt="Shoes" /></figure>
         <div className="">
           <h2 className="card-title mt-6 mb-6 font-bold text-xl text-[#282828]">{recipe.name}</h2>
