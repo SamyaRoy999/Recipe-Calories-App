@@ -9,6 +9,7 @@ const RecipesFunction = () => {
 
   const [cardData, setCardData] = useState([])
   const [tableData, setTableData] = useState([])
+
   useEffect(() => {
     fetch('./data.json')
       .then(res => res.json())
@@ -23,17 +24,19 @@ const RecipesFunction = () => {
       toast('alrady exgist')
     }
   }
-  console.log(tableData);
 
+  const hendelCurrently=(currCook)=>{
+    setTableData(currCook)
+  }
   return (
     <>
       <ToastContainer />
-      <div className="grid grid-cols-12 gap-7">
+      <div className="grid grid-cols-12 gap-4">
         <div className=" col-span-7 grid grid-cols-2 gap-6">
           {cardData.map(item => <Cards key={item.id} recipe={item} hendelCard={hendelCard} />)}
         </div>
         <div className="col-span-5">
-          <Tabale tableData={tableData}/>
+          <Tabale tableData={tableData} hendelCurrently={hendelCurrently}/>
         </div>
       </div>
     </>
