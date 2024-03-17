@@ -8,13 +8,9 @@ const Single = ({ tableData, hendelCurrently }) => {
     const newCarr = tableData.filter(item => item.id !== id)
     hendelCurrently(newCarr)
     const deleteData = tableData.filter(item => item.id === id)
-    // console.log(deleteData);
-    // const data = [...currently, deleteData]
-    // console.log(data);
     setCurrently([...currently, deleteData])
   }
 
-  console.log(currently);
   return (
     <div>
       <div className="overflow-x-auto">

@@ -6,7 +6,7 @@ import RecipesFunction from './components/RecipesFunction/RecipesFunction'
 
 export default function App() {
   return (
-    <div className='mx-auto container font-Lexend '>
+    <div className='mx-auto container font-Lexend px-5'>
       <Header/>
       <Banner/>
       <OurRecipes/>
